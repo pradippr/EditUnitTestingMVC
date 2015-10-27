@@ -11,7 +11,8 @@ namespace SingleToneDesignPattern
         static void Main(string[] args)
         {
 
-            string s = "adasd";
+            Console.WriteLine("Hello World!");
+               
             GlobalSingleton st = GlobalSingleton.Instance;
             IEnumerable<string> contries = st.Countries.getCounties();
             
