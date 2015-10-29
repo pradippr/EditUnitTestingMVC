@@ -16,7 +16,7 @@ namespace SingleToneDesignPattern
             GlobalSingleton st = GlobalSingleton.Instance;
             IEnumerable<string> contries = st.Countries.getCounties();
 
-            int name = "Pradip";
+            string name = "Pradip";
             
             Console.ReadLine();
         }
